@@ -11,7 +11,7 @@ while janela_aberta :
         if event.type == pygame.QUIT:
             janela_aberta = False
 
-            pygame.draw.circle(janela, (255,0,0), (400,300),50)
-            pygame.display.update()
+    pygame.draw.circle(janela, (255,0,0), (400,300),50)
+    pygame.display.update()
 
 pygame.quit()
