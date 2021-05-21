@@ -5,6 +5,7 @@ x = 400
 y = 300
 velocidade = 5
 fundo = pygame.image.load('venv/stret')
+veiculo = pygame.image.load('venv/car.png')
 
 
 janela = pygame.display.set_mode((1024,800))
@@ -28,8 +29,8 @@ while janela_aberta :
         x -= velocidade
 
     janela.blit(fundo,(0,0))
+    janela.blit(veiculo,(x,y))
 
-    pygame.draw.circle(janela, (255,0,0), (x,y),50)
     pygame.display.update()
 
 pygame.quit()
