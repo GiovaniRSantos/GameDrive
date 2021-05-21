@@ -7,7 +7,6 @@ velocidade = 5
 fundo = pygame.image.load('venv/stret')
 veiculo = pygame.image.load('venv/car.png')
 
-
 janela = pygame.display.set_mode((1024,800))
 pygame.display.set_caption("Criando um jogo com Python")
 
